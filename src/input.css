@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+html{
+    scroll-behavior: smooth;
+}
+@theme{
+    --color-primary:#f53838;
+    --color-secondary:rgba(245,56,56,0.35);
+    --color-primary-text:#4f5665;
+    --color-heading-text:#00132a;
+    --font-primary: "Rubik", sans-serif;
+}
+
+@layer{
+    .section-container{
+        @apply max-w-[1440px] container mx-auto px-4 py-28;
+    }
+}
+
