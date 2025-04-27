@@ -1,12 +1,15 @@
 {
-  "name": "latestvpn",
+  "name": "run",
   "version": "1.0.0",
-  "description": "Static HTML + Tailwind VPN website",
+  "main": "index.js",
   "scripts": {
-    "build": "echo 'No build necessary'",
-    "start": "echo 'No start necessary'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {},
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
 }
